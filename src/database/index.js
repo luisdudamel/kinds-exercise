@@ -9,7 +9,7 @@ const connectDB = (connectionString) =>
         reject(error);
         return;
       }
-      debug(chalk.bold.bgMagenta.greenBright(`Database connected`));
+      debug(chalk.bold.bgMagenta.greenBright(`Database connected ok`));
       resolve();
     });
   });
